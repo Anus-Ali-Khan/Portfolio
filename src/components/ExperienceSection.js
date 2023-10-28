@@ -35,13 +35,15 @@ export const ExperienceSection = () => {
                   color: "White",
                 }}
               >
-                <h3 className="text-2xl font-semibold">
-                  {experience[exp].appName}
-                </h3>
-                <p className="!m-0">{experience[exp].description}</p>
-                <p className="text-[#FF014F]">
-                  Tech: {experience[exp].technology}
-                </p>
+                <a href={experience[exp].link} className="cursor-pointer">
+                  <h3 className="text-2xl font-semibold">
+                    {experience[exp].appName}
+                  </h3>
+                  <p className="!m-0">{experience[exp].description}</p>
+                  <p className="text-[#FF014F]">
+                    Tech: {experience[exp].technology}
+                  </p>
+                </a>
               </VerticalTimelineElement>
             );
           })}

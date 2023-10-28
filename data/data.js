@@ -91,6 +91,7 @@ export const experience = {
     technology: "ReactJs, Tailwind CSS, Redux Toolkit, Axios",
     date: "September 2023 - Present",
     icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://github.com/Anus-Ali-Khan/Bidverse-App",
   },
   blogpost: {
     appName: "Blog Post",
@@ -98,6 +99,7 @@ export const experience = {
     technology: "ReactJs, Firebase",
     date: "July 2023",
     icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://aak-blogpost.netlify.app/",
   },
   ecomWithReact: {
     appName: "Ecommerce Website",
@@ -105,21 +107,17 @@ export const experience = {
     technology: "ReactJs, ContextAPI",
     date: "July 2023",
     icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://aak-ecommerceweb.netlify.app/",
   },
-  chat: {
-    appName: "Chatty",
-    description: "A chat application",
-    technology: "ReactJs, Firebase",
-    date: "August 2023",
-    icon: <FaReact className="h-5 w-5 text-white" />,
-  },
-  chat: {
+
+  socialMedia: {
     appName: "Social Media",
     description:
       "A Social Media Website with features like: login, signup, comment, post and much more",
     technology: "ReactJs, Firebase, Redux Toolkit",
     date: "June 2023",
     icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://aak-socialmedia.netlify.app/",
   },
   ecom: {
     appName: "Ecommerce Website",
@@ -127,5 +125,6 @@ export const experience = {
     technology: "HTML, CSS, JavaScript",
     date: "February 2023",
     icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://aak-ecom.netlify.app/",
   },
 };
