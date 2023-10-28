@@ -35,7 +35,7 @@ export const HeroSection = () => {
                 <FiFacebook className="text-white h-10 w-10 hover:text-[#FF014F]" />
               </Link>
               <Link
-                href={"https://www.linkedin.com/in/anus-ali-khan-0077b1207/"}
+                href={"https://www.linkedin.com/in/anus-ali-k-41b87b295/"}
                 target="_blank"
                 className="p-4 bg-[#1D2024] shadow-lg shadow-slate-800 "
               >
