@@ -21,6 +21,18 @@ export const features = {
     description:
       "Crafting captivating digital experiences through a fusion of elegant design and cutting-edge technology is my passion in web development.",
   },
+  android: {
+    title: "Android Development",
+    icon: <AiOutlineAndroid className="h-10 w-10 text-white" />,
+    description:
+      "Embarking on a journey of innovation in Android development, I showcase a prowess in crafting versatile and user-centric apps.",
+  },
+  ios: {
+    title: "IOS Development",
+    icon: <IoIosPhonePortrait className="h-10 w-10 text-white" />,
+    description:
+      "Unveiling the art of innovation in iOS development, my work reflects an unwavering commitment to deliver top-tier user experiences in the Apple ecosystem.",
+  },
 };
 
 export const projects = {
@@ -46,6 +58,14 @@ export const projects = {
 };
 
 export const skills = {
+  reactNative: {
+    title: "React Native",
+    percentage: 80,
+  },
+  typeScript: {
+    title: "TypeScript",
+    percentage: 70,
+  },
   html: {
     title: "HTML",
     percentage: 90,
@@ -61,6 +81,10 @@ export const skills = {
   react: {
     title: "React Js",
     percentage: 95,
+  },
+  firebase: {
+    title: "Firebase",
+    percentage: 85,
   },
   next: {
     title: "Next Js",
@@ -85,6 +109,40 @@ export const skills = {
 };
 
 export const experience = {
+  learnQuran: {
+    appName: "Learn Quran",
+    description: "A mobile app where you can learn and listen Quranic Surahs.",
+    technology: "React Native CLI, TypeScript, Audio Libraries, File I/O",
+    date: "January 2024 ",
+    icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://github.com/Anus-Ali-Khan/Learn-Quran",
+  },
+  shoppingCart: {
+    appName: "Shopping Cart",
+    description: "A Shopping app.",
+    technology: "React Native, Stack Navigation, TypeScript",
+    date: "January 2024 ",
+    icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://github.com/Anus-Ali-Khan/Shoppingapp10",
+  },
+  ticTacToeGame: {
+    appName: "Tic Tac Toe Game",
+    description: "Tick and cross game.",
+    technology: "React Native, React Native Icons, TypeScript",
+    date: "February 2024 ",
+    icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://github.com/Anus-Ali-Khan/TicTacToegame07",
+  },
+
+  currencyConverter: {
+    appName: "Currency Converter",
+    description: "App used to convert values in different currencies.",
+    technology: "React Native, TypeScript, Snackbar Package",
+    date: "January 2024 ",
+    icon: <FaReact className="h-5 w-5 text-white" />,
+    link: "https://github.com/Anus-Ali-Khan/TicTacToegame07",
+  },
+
   bidverse: {
     appName: "Bidverse",
     description: "A bidding application",
